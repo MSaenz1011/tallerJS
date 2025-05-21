@@ -1,0 +1,47 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f9f9f9;
+}
+
+h1 {
+  color: #222;
+}
+
+h2 {
+  margin-top: 40px;
+  color: #333;
+}
+
+.bloque {
+  margin-bottom: 30px;
+  padding: 15px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.caja {
+  width: 100px;
+  height: 100px;
+  margin-top: 10px;
+  background-color: gray;
+}
+
+.caja.doble {
+  background-color: green;
+}
+
+.caja.morada {
+  background-color: purple;
+}
+
+input, select {
+  padding: 5px;
+  margin-top: 5px;
+}
+
+input.estilo {
+  border: 2px solid gray;
+}

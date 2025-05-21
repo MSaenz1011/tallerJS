@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Taller de Eventos con jQuery</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <h1>Taller de Eventos con jQuery</h1>
+
+  <div class="bloque">
+    <h2>Ejemplo 1: Click — Cambiar color</h2>
+    <button id="botonColor">Cambiar color</button>
+    <div id="caja1" class="caja"></div>
+  </div>
+
+  <div class="bloque">
+    <h2>Ejemplo 2: Mouseover y Mouseout</h2>
+    <div id="zona" class="caja"></div>
+    <p id="mensajeMouse">Pasa el mouse por la caja</p>
+  </div>
+
+  <div class="bloque">
+    <h2>Ejemplo 3: Input — Contador</h2>
+    <input type="text" id="textoInput">
+    <p>Caracteres escritos: <span id="contador">0</span></p>
+  </div>
+
+  <div class="bloque">
+    <h2>Ejemplo 4: Change — Opción seleccionada</h2>
+    <select id="selector">
+      <option value="">Selecciona algo</option>
+      <option value="Gato">Gato</option>
+      <option value="Perro">Perro</option>
+    </select>
+    <p id="opcionElegida"></p>
+  </div>
+
+  <div class="bloque">
+    <h2>Ejemplo 5: Doble clic — Agrandar caja</h2>
+    <div id="cajaDoble" class="caja doble"></div>
+  </div>
+
+  <div class="bloque">
+    <h2>Ejercicio 1: Keydown — Mostrar tecla</h2>
+    <input type="text" id="campoTecla">
+    <p>Tecla presionada: <span id="tecla"></span></p>
+  </div>
+
+  <div class="bloque">
+    <h2>Ejercicio 2: Focus y Blur</h2>
+    <input type="text" id="campoEstilo" class="estilo">
+  </div>
+
+  <div class="bloque">
+    <h2>Ejercicio 3: Contextmenu — Bloquear clic derecho</h2>
+    <div id="noDerecho" class="caja morada"></div>
+  </div>
+
+  <div class="bloque">
+    <h2>Ejercicio 4: Mouseleave — Restaurar color</h2>
+    <div id="cajaColor" class="caja"></div>
+  </div>
+
+  <div class="bloque">
+    <h2>Ejercicio 5: Keyup — Validar palabra</h2>
+    <input type="text" id="validaTexto">
+    <p id="mensajeValidacion"></p>
+  </div>
+
+
+   <div>
+    <h2>Mostrar mensaje</h2>
+    <button id="showMSG">Mostrar mensaje / ocultar mensaje</button>
+    <p id="messageVd">Mensaje oculto</p>
+   </div>
+
+   <script
+      src="https://code.jquery.com/jquery-3.7.1.js"
+      integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="app.js"></script>
+</body>
+</html>
